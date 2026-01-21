@@ -63,7 +63,7 @@ def init():
             linux_distro = [
                 {"name": "debian", "rolling": ["debian", "ubuntu", "kali", "raspbian"]},
                 {"name": "fedora", "rolling": ["fedora"]},
-                {"name": "arch", "rolling": ["arch"]}
+                {"name": "arch", "rolling": ["arch", "cachyos"]}
             ]
             def get_like_distro():
                 os_file = open("/etc/os-release", "r")
